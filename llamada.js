@@ -1,0 +1,4 @@
+    function LlamaModal() {
+        $("#aviso").click();
+    }
+

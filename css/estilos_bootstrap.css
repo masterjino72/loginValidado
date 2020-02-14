@@ -1,0 +1,213 @@
+/* HEADER */
+body{
+    background-image: url(../img/fondo_azul.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: monospace;
+}
+
+form{
+    width: 450px;
+    margin: auto;
+    background: rgba(0,0,0,0.4);
+    padding: 30px 10px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+h2{
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+
+input {
+    width: 60%;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+    border-radius: 10px;
+}
+
+label{
+    font-size: 18px;
+    margin-right: 10px;
+    margin-left: 10px;
+    color:white;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 25%;
+    text-align: left;
+}
+
+.login-formulario{
+    
+}
+
+
+.boton{
+    background: #31384A;
+    color: #fff;
+    padding: 10px;
+    width: 30%;
+    border-radius: 20px;
+    margin: 10px 10px;
+}
+
+
+#boton:hover{
+    cursor: pointer;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.jumbotron-jl {
+    background: rgba(48,142,180,0.2);
+    color: #fff;
+    padding: 20px 0;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.jumbotron .titulo-blog {
+    font-size: 50px;
+    text-align: center
+}
+
+.jumbotron h1{
+    font-weight: bold;   
+    font-size: 20px;
+}
+
+.jumbotron h2{
+    font-size: 20px;
+}
+
+
+
+/* POST */
+
+.main {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.post {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #999;
+}
+
+.post .post-title a{
+    color: #333;
+}
+
+.post .thumb{
+    margin-right: 10px;
+    width: 40%;
+}
+
+.post .thumb img {
+    width: 100%;
+}
+
+.post .contenedor-botones{
+    width: 100%;
+}
+
+.text-center{
+    color: #fff;
+    
+}
+
+.img-thumbnail {
+    background: rgba(48,142,180,0.05);
+    border: none;
+}
+
+.centrado{
+      width: 50%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+}
+
+
+.modal-title{
+    text-align: center;
+    font-weight: 800;
+    font-size: 24px;
+    color: blue;
+}
+
+.modal-body{
+    text-align: center;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.gracias{
+    text-align: right;
+    font-weight: 800;
+    color:red;
+}
+/* MEDIA QUERIE */ 
+
+@media screen and (min-width: 992px) {
+    .centrado {
+        width: 100%
+    }
+    
+    .jumbotron p{
+        margin-bottom: 0px;
+    }
+
+}
+
+@media screen and (max-width: 780px) {
+    .post .thumb{
+        width: 100%;
+        margin-bottom: 20px;
+        margin-right: 0;
+            
+    }
+    
+    .jumbotron .titulo-blog {
+        font-size: 25px;
+    }
+    
+    .jumbotron p{
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .post .thumb{
+        width: 100%;
+        margin-bottom: 20px;
+        margin-right: 0;
+            
+    }
+    
+    .jumbotron .titulo-blog {
+        font-size: 37px;
+    }
+    
+    .jumbotron p{
+        font-size: 20px;
+    }
+    
+}
+
+
